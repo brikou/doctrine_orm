@@ -175,7 +175,7 @@ class DebugUnitOfWorkListener
             $idstring .= " [REMOVED]";
         } elseif ($state == UnitOfWork::STATE_MANAGED) {
             $idstring .= " [MANAGED]";
-        } elseif ($state == UnitOfwork::STATE_DETACHED) {
+        } elseif ($state == UnitOfWork::STATE_DETACHED) {
             $idstring .= " [DETACHED]";
         }
 
